@@ -86,8 +86,7 @@ digital-parking-management-system/
 │
 ├── screenshots/
 ├── .gitignore
-├── README.md
-
+└── README.md
 
 ---
 
