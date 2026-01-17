@@ -64,7 +64,7 @@ The main goal of this project is to:
 
 ---
 
-## 📁 Project Structure
+##  📁 Project Structure
 
 ````text
 digital-parking-management-system/
@@ -88,70 +88,66 @@ digital-parking-management-system/
 ├── screenshots/
 ├── .gitignore
 └── README.md
-
-
----
-
-## ⚙️ How to Run the Project Locally
+ ---
+ 
+## ⚙️ Installation & Setup
 
 ### 1️⃣ Clone the Repository
 ```bash
 git clone https://github.com/Sumit-Chourasia/digital-parking-management-system.git
 cd digital-parking-management-system
-
-2️⃣ Run Backend Server
+2️⃣ Backend Setup
+bash
+Copy code
 cd backend
 npm install
 node init_db.js
 node server.js
+Backend runs on:
 
-
-Backend will start on:
-
+arduino
+Copy code
 http://localhost:5000
-
-3️⃣ Run Frontend Application
+3️⃣ Frontend Setup
+bash
+Copy code
 cd frontend
 npm install
 npm run dev
+Frontend runs on:
 
-
-Frontend will start on:
-
-http://localhost:5173
-
+arduino
+Copy code
+ http://localhost:5173
 📸 Screenshots
+Screenshots of the application UI can be found in the screenshots/ folder.
 
-Screenshots of the application interface are available in the screenshots/ folder.
+🔒 Security & Best Practices
+Database files are excluded from version control
 
-🔐 Security & Best Practices
-
-Database files are excluded from GitHub
+Environment-ready project structure
 
 Clean Git commit history
 
-Separate frontend and backend
+Modular and scalable architecture
 
-Scalable and maintainable structure
-
-🚀 Future Improvements
-
+🚀 Future Enhancements
 Online payment integration
 
 Vehicle number recognition
 
-Advanced admin analytics
+Admin analytics dashboard
 
 Cloud database support
 
-Mobile application version
+Mobile application support
 
-👨‍💻 Author
-
+👤 Author
 Sumit Chourasia
 
 GitHub: https://github.com/Sumit-Chourasia
 
-📄 Note
+LinkedIn: (add if you want)
 
-This project is created for learning, academic, and portfolio purposes.
+📄 License
+This project is for educational and portfolio purposes.
