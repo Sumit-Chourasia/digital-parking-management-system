@@ -66,27 +66,29 @@ The main goal of this project is to:
 
 ## 📁 Project Structure
 
+````text
 digital-parking-management-system/
 │
 ├── backend/
-│ ├── server.js
-│ ├── init_db.js
-│ ├── migrate.js
-│ ├── seed_slots.js
-│ ├── package.json
+│   ├── server.js
+│   ├── init_db.js
+│   ├── migrate.js
+│   ├── seed_slots.js
+│   ├── package.json
 │
 ├── frontend/
-│ ├── src/
-│ │ ├── components/
-│ │ ├── pages/
-│ │ ├── App.jsx
-│ │ └── main.jsx
-│ ├── index.html
-│ ├── package.json
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── App.jsx
+│   │   └── main.jsx
+│   ├── index.html
+│   ├── package.json
 │
 ├── screenshots/
 ├── .gitignore
 └── README.md
+
 
 ---
 
